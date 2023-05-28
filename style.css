@@ -42,6 +42,9 @@
     text-decoration: none;
     color: #2e2e2e;
 }
+#footer li a:hover {
+    color: #17A2B8;
+}
 
 @media screen and (max-width: 767px){
     #mainMenu a {
