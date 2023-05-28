@@ -1,0 +1,62 @@
+.navbar-nav .nav-link {
+    color: #17A2B8;
+}
+.navbar-nav .nav-link:hover {
+    background: #17A2B8;
+    color: white;
+    border-radius: 5px;
+}
+.navbar-nav .nav-link.active {
+    background: #17A2B8;
+    color: white;
+    border-radius: 5px;
+}
+.carousel-control-prev-icon{
+    background-color: #554f4f;
+}
+.carousel-control-next-icon {
+    background-color: #554f4f;
+}
+.btn-primary {
+    background: #17A2B8;
+}
+.btn-primary:hover {
+    background: #1493a7;
+}
+#slider {
+    padding-top: 4rem;
+}
+#work {
+    padding-top: 4rem;
+}
+#contact{
+    padding-top: 4rem !important;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("./img/map.jpg");
+}
+#contact form button {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+@media screen and (max-width: 767px){
+    #mainMenu a {
+        text-align: center;
+    }
+
+    #about, #work, #contact {
+        padding-top: 4.5rem !important;
+    }
+
+    .about-desc{
+        padding-bottom: 1rem;
+    } 
+
+    #work .card {
+        margin-bottom: 1.5rem !important;
+    }
+}

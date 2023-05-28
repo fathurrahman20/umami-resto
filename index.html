@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto Menu</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main-menu">
+    <nav
+      id="main-menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href=""
+          ><img src="./img/logo-umami.png" width="250" alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link" href="#slider">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#work">Work</a></li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                >Projects</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="slider"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner_01.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner_02.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner_03.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center about-desc">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
+              repellat unde, quisquam sunt ex maiores iure eum labore quasi.
+              Accusamus fugit modi eum, quibusdam doloribus, id voluptatum velit
+              quae optio tempore cum! Delectus excepturi sit ducimus nulla sequi
+              nesciunt blanditiis alias cumque non amet debitis adipisci eos
+              unde, quod, voluptatibus esse, provident dolor. Odio ea corporis
+              in optio laborum nisi? Ab doloremque officia dolorem voluptatem
+              non, repellendus modi est enim dignissimos, corrupti sapiente
+              praesentium officiis. Perspiciatis maxime unde ratione sequi?
+            </p>
+            <a class="btn btn-primary" href="">Learn More</a>
+          </div>
+          <div class="col-md-6">
+            <img class="d-block w-100" src="./img/about.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center mx-auto">
+            <h2>What We Work</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              laborum.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./img/menu1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Strocoberry Pancake</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./img/menu2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Bacon Trelavo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./img/menu3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Salmon Salamonia</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-black bg-opacity-25 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center mx-auto">
+            <h2>Contact Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, excepturi.
+            </p>
+            <form action="" class="text-start pt-4">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input
+                  type="number"
+                  id="phone"
+                  class="form-control"
+                  placeholder="+628xxxxxxxxxx"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  name="message"
+                  rows="4"
+                  id="message"
+                  class="form-control"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-md-3">
+            <img src="./img/logo-umami.png" class="d-block w-100" alt="" srcset="" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequuntur, placeat. Quasi quam voluptates sequi itaque.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3>Our Products</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="">Products name</a></li>
+              <li class="mb-2"><a href="">Products name</a></li>
+              <li class="mb-2"><a href="">Products name</a></li>
+              <li class="mb-2"><a href="">Products name</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="">Links name</a></li>
+              <li class="mb-2"><a href="">Links name</a></li>
+              <li class="mb-2"><a href="">Links name</a></li>
+              <li class="mb-2"><a href="">Links name</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Search Here</h4>
+            <form action="">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Here"
+                />
+                <button class="btn btn-primary" type="button">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mx-auto">
+            <p>Copyright &copy; 2023 Fathurrahman</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
